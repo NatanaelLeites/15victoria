@@ -26,7 +26,7 @@
   font-family: "Playwrite HU", cursive;
   font-weight: 100;
   position: absolute;
-  top: 10%;
+  top: 18%;
 }
 .hero .titulo {
   font-family: "Great Vibes", cursive;
@@ -43,7 +43,7 @@
   align-items: center;
   color: #fff;
   position: absolute;
-  bottom: 5%;
+  bottom: 10%;
 }
 .hero .countdown div {
   text-align: center;
@@ -58,7 +58,7 @@
 }
 .hero .btn-confirmar {
   position: absolute;
-  bottom: 15%;
+  bottom: 20%;
 }
 .hero .btn-confirmar button {
   color: #fff;
