@@ -1,0 +1,71 @@
+.hero{
+    position: relative;
+    scroll-snap-type: start;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #0000005f, #000000d3),
+        url("../img/img1.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* font-family: "Open Sans", sans-serif; */
+    .txt-Titulo{
+        color: #ffffff;
+        text-align: center;
+        font-family: "Playwrite HU", cursive;
+        font-weight: 100;
+        position: absolute;
+        top: 10%;
+    }
+    .titulo{
+        font-family: "Great Vibes", cursive;
+        font-size: 6rem;
+        font-weight: lighter;
+        margin: 0;
+        text-align: center;
+        color: #ffffff;
+        text-shadow: 0px 0px 1px #000;
+    }
+    .countdown{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        position: absolute;
+        bottom: 5%;
+        div{
+            text-align: center;
+            padding: 0 .5rem;
+            font-size: 16px;
+            p{
+                font-family: "Playwrite HU", cursive;
+            }
+            span{
+                font-family: "Playwrite HU", cursive;
+            }
+        }
+    }
+    .btn-confirmar{
+        position: absolute;
+        bottom: 15%;
+        button{
+            color: #fff;
+            font-size: 16px;
+            border: solid 1px #ffffff00;
+            border-radius: 10px;
+            transition: all .5s;
+            background: #a9a9a973;
+            padding: .5rem;
+            margin-top: 0.8rem;
+            cursor: pointer; 
+            font-family: "Playwrite HU", cursive;
+        }
+        button:hover{
+            background-color: #2b8eff;
+        }
+    }
+}
