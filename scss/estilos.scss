@@ -9,6 +9,7 @@ $color-claro: #a2d4ff;
 
 @import './hero.scss';
 @import './info.scss';
+@import './galeria.scss';
 
 html {
     scroll-behavior: smooth;
@@ -28,5 +29,5 @@ li {
 .container-app {
     min-height: 100vh;
     background: $color-oscuro;
-    background: linear-gradient(356deg, $color-oscuro 0%, #ffffff 110%);
+    background: linear-gradient(180deg, #20a6ff 0%, #ffffff 130%);
 }
