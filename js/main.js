@@ -27,7 +27,7 @@ if(segundos < 10){sec.innerHTML = "0" + segundos}
 }, 1000);
 
 /* musica de fondo */
-const musica = document.getElementById('miMusica');
+/* const musica = document.getElementById('miMusica');
 const botonSilencio = document.getElementById('botonSilencio');
 
 botonSilencio.textContent = 'Activar sonido';
@@ -41,4 +41,20 @@ botonSilencio.addEventListener('click', () => {
     musica.muted = true;
     botonSilencio.textContent = 'Activar sonido';
   }
+}); */
+
+const musica = document.getElementById('miMusica');
+const botonReproducirPausar = document.getElementById('botonReproducirPausar');
+
+let reproduciendo = false; // Variable para rastrear el estado de reproducción
+
+botonReproducirPausar.addEventListener('click', () => {
+    if (reproduciendo) {
+        musica.pause();
+        botonReproducirPausar.textContent = '';
+    } else {
+        musica.play();
+        botonReproducirPausar.textContent = '';
+    }
+    reproduciendo = !reproduciendo; // Cambia el estado de reproducción
 });

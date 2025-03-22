@@ -12,7 +12,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    #botonSilencio{
+    #botonReproducirPausar{
         position: absolute;
         top: 5%;
         right: 10%;
@@ -20,9 +20,9 @@
         cursor: pointer;
         transition: all .5s;
         font-family: "Playwrite HU", cursive;
-        font-size: .5rem;
+        font-size: 1.5rem;
     }
-    #botonSonido{
+    /* #botonSonido{
         position: absolute;
         top: 5%;
         right: -100%;
@@ -31,7 +31,7 @@
         transition: all .5s;
         font-family: "Playwrite HU", cursive;
         font-size: .5rem;
-    }
+    } */
     .txt-Titulo{
         color: #ffffff;
         text-align: center;
