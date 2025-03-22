@@ -1,19 +1,16 @@
 .galeria{
-    display: flex;
-    flex-direction: row;
-    width: 1000px;
-    height: 430px;
-    img{
-        width: 0;
-        flex-grow: 1;
-        object-fit: cover;
-        opacity: .8;
-        transition: all .3s;
-    }
-    img:hover{
-        cursor: crosshair;
-        width: 300px;
-        opacity: 1;
-        filter: contrast(120%);
-    }
+   height: 100vh; 
+   border-radius: 20px;
+   overflow: hidden;
+   padding-bottom: 1rem;
+   img{
+       border-radius: 20px;
+       object-fit: cover;
+
+   }
+   .titular-galeria{
+    text-align: center;
+    color: #fff;
+    text-shadow: 0px 0px 1px #000;
+   }
 }
