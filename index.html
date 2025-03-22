@@ -15,8 +15,13 @@
 
 <body>
     <div class="container-app">
+        <audio id="miMusica" autoplay loop>
+            <source src="./audio/photograph.mp3" type="audio/mpeg">
+        </audio>
         <main>
             <section class="hero">
+                <p id="botonSilencio">Silenciar</p>
+                <p id="botonSonido"></p>
                 <h3 class="txt-Titulo">Mis 15 años</h3>
                 <h1 class="titulo">Victoria</h1>
                 <div class="countdown">
@@ -42,6 +47,25 @@
                     <button>Confirmar ahora</button>
                 </a>
             </section>
+            <section class="info">
+                <h4 class="infoT"><i class='bx bxs-calendar'></i>Fecha 19/04/2025 hora 21:00</h4>
+                <h4 class="infoT"><i class='bx bx-closet'></i>Vestimenta Semi Formal</h4>
+                <h4 class="infoT"><i class='bx bxs-timer'></i>Confirmar asistencia hasta el 12 de abril</h4>
+                <hr>
+                <div class="mapa">
+                    <h4><i class='bx bx-been-here'></i>Lugar</h4>
+                    <p>Club Retirados Militares</p>
+                    <p>Ansina 735</p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d269.59536710951977!2d-55.55385720652873!3d-30.896508207287276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a9ff3bfa0ccc31%3A0x6154fd5663dbe5b3!2sCentro%20Social%20y%20Mutual%20de%20Retirados%20y%20Pensionistas%20Militares%20de%20Rivera!5e0!3m2!1ses!2suy!4v1742553244806!5m2!1ses!2suy"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
+            <p>Espero que seas parte de esta gran celebracion</p>
+            <p>Musica Photograph</p>
+            <p>Cuenta: 110486058-00001</p>
+            <p>Carlos Gomez</p>
         </main>
     </div>
     <script src="./js/main.js"></script>

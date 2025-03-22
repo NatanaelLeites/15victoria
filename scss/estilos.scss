@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+HU:wght@100..400&display=swap');
 $color-oscuro: #20a6ff;
+$color-claro: #a2d4ff;
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +8,7 @@ $color-oscuro: #20a6ff;
 }
 
 @import './hero.scss';
+@import './info.scss';
 
 html {
     scroll-behavior: smooth;

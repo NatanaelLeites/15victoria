@@ -25,3 +25,17 @@ if(minutos < 10){min.innerHTML = "0" + minutos}
 if(segundos < 10){sec.innerHTML = "0" + segundos}
 
 }, 1000);
+
+/* musica de fondo */
+const musica = document.getElementById('miMusica');
+const botonSilencio = document.getElementById('botonSilencio');
+
+botonSilencio.addEventListener('click', () => {
+  if (musica.muted) {
+    musica.muted = false;
+    botonSilencio.textContent = 'Silenciar';
+  } else {
+    musica.muted = true;
+    botonSilencio.textContent = 'Activar sonido';
+  }
+});
