@@ -107,12 +107,44 @@
                 </div>
 
             </section>
-            <!-- 
-            <p>Cuenta: 110486058-00001</p>
-            <p>Carlos Gomez</p> -->
+            <div class="regalos">
+                <h2>Regalos</h2>
+                <i id="btn-cuenta" class='bx bx-tada bx-gift'></i>
+                <div id="cuenta" class="cuenta-bancaria">
+                    <p>Cuenta Brou</p>
+                    <strong>110486058-00001</strong>
+                    <p>Carlos Gomez</p>
+                </div>
+            </div>
+            <div id="mensajes">
+                <h2>¡Déjame un mensaje!</h2>
+                <div class="prueba">
+                    <form id="myForm" onsubmit="submitForm()" target="_blank"
+                        action="https://formsubmit.co/mirianmillan000@gmail.com" method="POST">
+                        <div class="form-group">
+                            <div class="form-row">
+                                <div class="col">
+                                    <input type="text" name="name" class="form-control" placeholder="Nombre completo"
+                                        required>
+                                </div>
+                                <div class="col">
+                                    <input type="email" name="email" class="form-control" placeholder="E-mail" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Dejame un mensaje" class="form-control" name="message" rows="10"
+                                required></textarea>
+                        </div>
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+                        <button type="submit" class="btn btn-lg btn-dark btn-block">Enviar</button>
+                    </form>
+                </div>
+            </div>
+            
         </main>
     </div>
-    <audio id="miMusica" autoplay loop><!-- quitar muted -->
+    <audio id="miMusica" autoplay loop>
         <source src="https://natanaelleites.github.io/15victoria/photograph.mp3" type="audio/mpeg">
     </audio>
     <!-- bootstrap -->

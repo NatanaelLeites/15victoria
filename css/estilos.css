@@ -135,6 +135,92 @@
   text-align: center;
   color: #fff;
   text-shadow: 0px 0px 1px #000;
+  font-family: "Playwrite HU", cursive;
+}
+
+.regalos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  background: rgba(43, 107, 255, 0.6470588235);
+  color: #fff;
+}
+.regalos .bx-tada {
+  font-size: 3.5rem;
+  padding: 1rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.regalos .cuenta-bancaria {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.1s;
+}
+.regalos .cuenta-bancaria p {
+  text-align: center;
+}
+.regalos .cuenta-bancaria strong {
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+.regalos .activo {
+  height: auto;
+  opacity: 1;
+}
+
+#mensajes {
+  padding: 3rem;
+  background-color: #a2d4ff;
+}
+#mensajes h2 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+#mensajes #myForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#mensajes #myForm input,
+#mensajes #myForm textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  width: 60vw;
+}
+#mensajes #myForm button {
+  background-color: #71bdff;
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 0.5rem 2rem;
+  border: none;
+  font-size: 1.2rem;
+  transition: background-color 0.5s;
+  cursor: pointer;
+}
+#mensajes #myForm button:hover {
+  background-color: #5179ff;
+}
+#mensajes #contenedor-mensajes {
+  margin-top: 20px;
+}
+#mensajes #contenedor-mensajes .mensaje {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+#mensajes #contenedor-mensajes .mensaje .nombre {
+  font-weight: bold;
 }
 
 html {
