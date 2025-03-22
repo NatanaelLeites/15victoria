@@ -30,6 +30,9 @@ if(segundos < 10){sec.innerHTML = "0" + segundos}
 const musica = document.getElementById('miMusica');
 const botonSilencio = document.getElementById('botonSilencio');
 
+botonSilencio.textContent = 'Activar sonido';
+musica.muted = true;
+
 botonSilencio.addEventListener('click', () => {
   if (musica.muted) {
     musica.muted = false;
